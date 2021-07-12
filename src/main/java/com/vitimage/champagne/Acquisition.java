@@ -419,6 +419,7 @@ public abstract class Acquisition{
 	}
 
 	
+	
 	/*deprecated*/
 	public static int[] detectCapillaryPosition(ImagePlus imgReg,int Z) {
 		ImagePlus img=new Duplicator().run(imgReg);
